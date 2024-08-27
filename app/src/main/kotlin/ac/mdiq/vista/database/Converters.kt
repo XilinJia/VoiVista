@@ -1,0 +1,50 @@
+package ac.mdiq.vista.database
+
+import androidx.room.TypeConverter
+import ac.mdiq.vista.extractor.stream.StreamType
+import ac.mdiq.vista.local.subscription.FeedGroupIcon
+import java.time.Instant
+import java.time.OffsetDateTime
+import java.time.ZoneOffset
+
+class Converters {
+    /**
+     * Convert a long value to a [OffsetDateTime].
+     * @param value the long value
+     * @return the `OffsetDateTime`
+     */
+    @TypeConverter
+    fun offsetDateTimeFromTimestamp(value: Long?): OffsetDateTime {
+        return value?.let { OffsetDateTime.ofInstant(Instant.ofEpochMilli(it), ZoneOffset.UTC) } ?: OffsetDateTime.MIN
+    }
+
+    /**
+     * Convert a [OffsetDateTime] to a long value.
+     * @param offsetDateTime the `OffsetDateTime`
+     * @return the long value
+     */
+    @TypeConverter
+    fun offsetDateTimeToTimestamp(offsetDateTime: OffsetDateTime?): Long {
+        return offsetDateTime?.withOffsetSameInstant(ZoneOffset.UTC)?.toInstant()?.toEpochMilli() ?: 0L
+    }
+
+    @TypeConverter
+    fun streamTypeOf(value: String): StreamType {
+        return StreamType.valueOf(value)
+    }
+
+    @TypeConverter
+    fun stringOf(streamType: StreamType): String {
+        return streamType.name
+    }
+
+    @TypeConverter
+    fun integerOf(feedGroupIcon: FeedGroupIcon): Int {
+        return feedGroupIcon.id
+    }
+
+    @TypeConverter
+    fun feedGroupIconOf(id: Int): FeedGroupIcon {
+        return FeedGroupIcon.entries.first { it.id == id }
+    }
+}

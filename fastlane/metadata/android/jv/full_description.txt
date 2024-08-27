@@ -1,0 +1,1 @@
+VoiVista ora migunakake pustaka kerangka kerja Google, utawa API Youtube. VoiVista namung migunakake informasi situs kanggo njupuk informasi kang dibutuhake. Mula iku, VoiVista isa digunakke ing piranti tanpa Layanan Google. Sampeyan uga ora mbutuhake akun Youtube kanggo migunakake VoiVista, lan aplikasi iki FLOSS.

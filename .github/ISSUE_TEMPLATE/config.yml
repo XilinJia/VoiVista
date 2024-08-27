@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ❓ Question
+    url: https://github.com/XilinJia/VoiVista/discussions/new?category=questions
+    about: Ask about anything VoiVista-related
+  - name: 💬 IRC
+    url: https://web.libera.chat/#voivista
+    about: Chat with us via IRC for quick Q/A
+  - name: 💬 Matrix
+    url: https://matrix.to/#/#voivista:libera.chat
+    about: Chat with us via Matrix for quick Q/A

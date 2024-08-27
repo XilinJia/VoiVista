@@ -1,0 +1,1 @@
+VoiVista sama sekali tidak menggunakan pustaka kerangka kerja Google, atau layanan API YouTube. VoiVista hanya mengunakan informasi situs YouTube untuk mendapatkan informasi yang dibutuhkan. Oleh karena itu, VoiVista bisa digunakan pada perangkat tanpa Layanan Google. Anda juga tidak membutuhkan akun YouTube untuk menggunakan VoiVista, dan aplikasi ini sepenuhnya FLOSS.

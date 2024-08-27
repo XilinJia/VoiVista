@@ -1,0 +1,1 @@
+Probleem met databank migratie opgelost dat ervoor zorgde dat VoiVista niet kon opstarten in sommige zeldzame gevallen.

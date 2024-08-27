@@ -1,0 +1,1 @@
+Opgelost: Database migratie verholpen waardoor VoiVista in sommige zeldzame gevallen niet kon starten.

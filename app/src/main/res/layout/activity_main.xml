@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ac.mdiq.vista.ui.views.FocusAwareDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ac.mdiq.vista.ui.views.FocusAwareCoordinator
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment_holder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize" />
+
+        <include
+            layout="@layout/toolbar_layout"
+            android:id="@+id/toolbar_layout"/>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment_player_holder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:behavior_hideable="true"
+            app:behavior_peekHeight="0dp"
+            app:layout_behavior="ac.mdiq.vista.ui.gesture.CustomBottomSheetBehavior" />
+
+    </ac.mdiq.vista.ui.views.FocusAwareCoordinator>
+
+    <include
+        layout="@layout/drawer_layout"
+        android:id="@+id/drawer_layout" />
+
+</ac.mdiq.vista.ui.views.FocusAwareDrawerLayout>

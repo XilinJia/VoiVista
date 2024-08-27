@@ -1,0 +1,2 @@
+VoiVista maakt geen gebruik van Google framework bibliotheken of de YouTube API.
+Het interageert enkel met de website om de nodige informatie te vergaren. Daardoor kan deze app gebruikt worden op apparaten waarop Google Services niet geïnstalleerd is. Daarnaast heb je geen YouTube account nodig om VoiVista te gebruiken en is VoiVista vrije software en opensource.

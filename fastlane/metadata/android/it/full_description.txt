@@ -1,0 +1,1 @@
+VoiVista non usa né le librerie di Google, né l'API di YouTube, ma analizza il sito web per estrarne le informazioni di cui ha bisogno. Quindi l'app può essere usata senza un account YouTube e su dispositivi senza Google Play Services. Inoltre, VoiVista è libera ed open source.

@@ -1,0 +1,2 @@
+- Naprawiono wznawianie odtwarzania
+- Ulepszenia zapewniające, że usługa, która określa, czy VoiVista powinien sprawdzać nowe wersje, nie jest uruchamiana w tle

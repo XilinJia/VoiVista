@@ -1,0 +1,1 @@
+VoiVista verwendet keine Bibliotheken des Google-Frameworks oder der YouTube-API. Es analysiert die Website, um die benötigten Informationen zu erlangen. Aus diesem Grund kann die App ohne die Google Services verwendet werden. Ebenso wird kein YouTube-Konto für VoiVista benötigt und es ist FLOSS (Freie Software / Open-Source-Software).

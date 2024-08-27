@@ -1,0 +1,1 @@
+Bazı nadir durumlarda VoiVista'ın başlamasını engelleyen veri tabanı taşıması düzeltildi.

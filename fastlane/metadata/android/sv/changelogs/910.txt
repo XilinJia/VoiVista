@@ -1,0 +1,1 @@
+Fixade databasmigrering som hindrade VoiVista från att starta i vissa sällsynta fall.

@@ -1,0 +1,11 @@
+include ':app'
+
+// Use a local copy of VoiVista Extractor by uncommenting the lines below.
+// We assume, that VoiVista and VoiVista Extractor have the same parent directory.
+// If this is not the case, please change the path in includeBuild().
+
+includeBuild('../VistaGuide') {
+    dependencySubstitution {
+        substitute module('com.github.XilinJia:VistaGuide') using project(':extractor')
+    }
+}

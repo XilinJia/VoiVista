@@ -1,0 +1,1 @@
+Sửa lỗi nhập database dẫn tới chặn VoiVista chạy trong một số trường hợp hiếm gặp.

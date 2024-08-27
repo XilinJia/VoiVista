@@ -1,0 +1,22 @@
+.gradle/
+local.properties
+.DS_Store
+build/
+captures/
+.idea/
+*.iml
+*~
+.weblate
+*.class
+app/debug/
+app/release/
+
+# vscode / eclipse files
+*.classpath
+*.project
+*.settings
+bin/
+.vscode/
+*.code-workspace
+# Since Kotlin 2.0.0, folder named ".kotlin" is created at compile time
+.kotlin
