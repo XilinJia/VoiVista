@@ -1,5 +1,5 @@
 
-VoiVista is a fork from Kotlin project of [NewPipeX](https://github.com/XilinJia/NewPipeX), largely restructured, and depends on the full Kotlin library of [VistaGuide](https://github.com/XilinJia/VoiVistaGuide)
+VoiVista is a fork from Kotlin project of [NewPipeX](https://github.com/XilinJia/NewPipeX), largely restructured, and depends on the full Kotlin library of [VistaGuide](https://github.com/XilinJia/VistaGuide)
 
 It's open-source client of various video servers, among which is YouTube.
 
